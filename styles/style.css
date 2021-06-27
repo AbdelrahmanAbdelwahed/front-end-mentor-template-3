@@ -44,6 +44,11 @@ h3 {
 p {
   color: var(--bs-Grayish-Blue);
 }
+.heading {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
 .btn-download {
   display: inline-block;
 }
@@ -90,6 +95,10 @@ h6 {
 .main-6 {
   text-align: center;
 }
+.main-1 {
+  width: 40%;
+  margin: auto;
+}
 .pc {
   display: inline-block;
   margin: 50px 150px 120px -50px;
@@ -103,6 +112,11 @@ h6 {
 }
 .container-1 div {
   margin-bottom: 10px;
+  width: 55%;
+}
+.main-3-heading {
+  width: 45%;
+  margin: auto;
 }
 .main-4 div,
 .main-5 div {
@@ -114,7 +128,7 @@ h6 {
 }
 .main-4 div {
   margin: -60px 20px 100px 20px;
-  width: 20%;
+  width: 25%;
 }
 #blacklist {
   position: relative;
@@ -122,6 +136,10 @@ h6 {
 }
 .main-5 div {
   margin: 100px 50px 100px 50px;
+}
+.main-6-heading {
+  width: 45%;
+  margin: auto;
 }
 footer {
   background-color: rgb(240, 240, 240);
@@ -134,24 +152,24 @@ footer .main-7 {
   padding-top: 0.5rem;
   padding: 10px;
 }
-footer .main-7 img {
+#logo-main-7 {
   display: inline-block;
   height: 60px;
 }
 .end {
-  display: inline;
-  padding: 2.5rem;
+  display: inline-block;
+  padding: 0.5em 1.5em 0.5em 1.5em;
   list-style: none;
 }
 .div-1 {
   display: inline-block;
   font-weight: 400;
+  text-align: left;
   font-size: 20px;
-  position: relative;
-  transform: translateX(-40px);
+  width: 40%;
   color: hsl(210, 10%, 33%);
   margin: 10px 0px 10px 10px;
-  padding: 0px;
+  padding: 10px;
 }
 .ul-1 {
   display: inline-block;
@@ -243,6 +261,15 @@ footer .main-7 img {
     justify-content: center;
     align-items: center;
   }
+  .heading {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .main-1 {
+    width: 90%;
+    margin: auto;
+  }
   #mac-1,
   #mac-2 {
     border: none;
@@ -262,6 +289,14 @@ footer .main-7 img {
   #ios-1:hover,
   #ios-2:hover {
     border-bottom: 3px solid hsl(171, 77%, 27%);
+  }
+  .container-1 div {
+    width: 100%;
+    margin: auto;
+  }
+  .main-3-heading {
+    width: 100%;
+    margin: auto;
   }
   .pc {
     display: flex;
@@ -311,6 +346,9 @@ footer .main-7 img {
     margin: 20px 0px 60px 0px;
     width: 100%;
   }
+  .main-5 div {
+    margin: 50px 50px 50px 50px;
+  }
   #blacklist {
     position: relative;
     transform: translateY(0px);
@@ -322,33 +360,37 @@ footer .main-7 img {
     display: block;
     text-align: center;
   }
+  .main-6-heading {
+    width: 100%;
+    margin: auto;
+  }
+  #logo-main-7 {
+    display: block;
+    height: 60px;
+    margin: auto;
+  }
   .div-1 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    margin: auto;
     text-align: center;
+    width: 100%;
     font-weight: 400;
     font-size: 20px;
-    position: relative;
-    transform: translateX(0px);
     color: hsl(210, 10%, 33%);
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 10px -30px;
     padding: 0px;
   }
   .ul-1 {
     display: block;
     text-align: center;
-    position: relative;
-    transform: translateX(-20px);
     font-weight: 400;
     font-size: 20px;
   }
   .ul-2 {
     display: block;
+    margin: auto;
+    margin: 10px 0px 10px -30px;
     text-align: center;
-    position: relative;
-    transform: translateX(-20px);
     font-weight: 400;
     font-size: 20px;
   }
